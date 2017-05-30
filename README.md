@@ -6,15 +6,15 @@ Where further information is required, please [contact the Communications team](
  
 We are providing a public service, and it must be fully available to everyone. Pages should be functional, interesting and attractive – in that order.
 
-The residents of East Sussex are a disparate group. It is important that our pages are easy for everyone to use, including those who aren’t used to the web (26% of our population is elderly), who have disabilities which affect their use of the web, or who don’t have English as a first language. 
+The residents of East Sussex are a disparate group. It is important that our pages are easy for everyone to use, including those who aren’t used to the web, who have disabilities which affect their use of the web, or who don’t have English as a first language. 
 
 ## The East Sussex County Council brand
 
-Our brand includes the logo, wave pattern, font, colours and photos. All web pages and applications produced for East Sussex County Council must use our corporate brand. Our brand guidelines are available on our intranet (for staff), or by contact the Communications team.  
+Our brand includes the logo, wave pattern, font, colours and photos. All web pages and applications produced for East Sussex County Council must use our corporate brand. Our brand guidelines are available on our intranet (for staff), or by contacting the Communications team.  
 
 Our [house style](https://www.eastsussex.gov.uk/about-this-site/housestyle/) sets out how you should phrase and punctuate text. It includes preferred spellings, alternative words, advice on plain English and making printed documents available online. 
 
-Wherever possible, new developments should be branded as part of an existing East Sussex County Council website, not as a new, separate website. Any exception to this must be agreed with the Web Services Manager.
+Wherever possible, new developments should be branded as part of an existing East Sussex County Council website, not as a new, separate website. Any exception to this must be agreed with the Head of Digital and Design Services.
  
 ## Browser compatibility
 
@@ -70,6 +70,8 @@ Public-facing websites owned and managed by East Sussex County Council are subje
 
 All websites should use Google Analytics, which should be configured to send data to [our Google Analytics account](https://data.gov.uk/dataset/east-sussex-county-council-web-analytics). Please contact the Communications team to set up a new property in Google Analytics. Do not set up a separate Google Analytics account.
 
+In addition to standard Google Analytics tracking, clicks on documents and external links should be tracked. The recommended approach for doing this is to implement the code in [Escc.js](https://github.com/east-sussex-county-council/Escc.js).
+
 All websites should also be verified in [Google Search Console](https://www.google.com/webmasters/tools/) using the Communications team's Google account.
 
 ## Unicode
@@ -88,9 +90,9 @@ Where a page contains foreign-language text, this must be Unicode text with the 
 
 Links [should be underlined](http://www.useit.com/alertbox/20040510.html) except where the links are part of a graphical element such as a button or menu. Visited links should appear differently to unvisited links.
  
-[Do not open links in new windows](http://www.smashingmagazine.com/2008/07/01/should-links-open-in-new-windows/) and avoid pop-ups and modal dialogs, which can confuse or irritate users and are often blocked by browsers. [Links to documents should open in new windows](http://www.useit.com/alertbox/open_new_windows.html), but you should notify the user that this will happen. 
+[Do not open links in new windows](http://www.smashingmagazine.com/2008/07/01/should-links-open-in-new-windows/) and avoid pop-ups and modal dialogs, which can confuse or irritate users and are often blocked by browsers. [Links to documents should open in new windows](http://www.useit.com/alertbox/open_new_windows.html), but you should notify the user that this will happen. You can use the code in [Escc.js](https://github.com/east-sussex-county-council/Escc.js) to enable configure this correctly.
 
-[Links to anchors within the same page should not be used](http://www.useit.com/alertbox/within_page_links.html).
+[Links to anchors within the same page can be confusing](https://www.nngroup.com/articles/in-page-links/) only where their different behaviour is made clear and adds significant value.
 
 ## Video
 

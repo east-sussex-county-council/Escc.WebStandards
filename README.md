@@ -28,9 +28,9 @@ All websites **must** use a responsive design that supports all screen sizes fro
 
 ## Accessibility
 
-Websites **must** comply with W3C [Web Content Accessibility Guidelines](http://www.w3.org/TR/WCAG/) at the level required by UK central government. At the time of writing this is WCAG 2.1 level AA.   
+Websites **must** comply with W3C [Web Content Accessibility Guidelines (WCAG)](http://www.w3.org/TR/WCAG/) at level AA. This is required by [EU Directive 2016/2102](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L2102), which in turn references [EN 301 549](http://mandate376.standards.eu/standard) which [requires conformance with WCAG 2.0 at level AA](http://mandate376.standards.eu/standard/technical-requirements/wcag-20-conformance-requirements). In addition all UK public sector organisations have an [Equality Duty](https://www.equalityhumanrights.com/en/advice-and-guidance/public-sector-equality-duty) to “promote equality of opportunity for disabled people”. 
 
-All public sector organisations have an [Equality Duty](https://www.equalityhumanrights.com/en/advice-and-guidance/public-sector-equality-duty) to “promote equality of opportunity for disabled people”. If any project cannot meet WCAG 2.1 at the relevant level this must be signed off by the Head of Digital and Design Services and the Legal Services team.
+EN 301 549 is being updated to reference WCAG 2.1, so we should target that standard now. If any project cannot meet WCAG 2.1 at the relevant level this must be signed off by the Head of Digital and Design Services and the Legal Services team.
 
 ## JavaScript
 
